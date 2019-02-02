@@ -699,3 +699,9 @@ Completed 200 OK in 46ms (Views: 21.2ms | ActiveRecord: 0.6ms)
             WHERE name='index_songs_on_artist_id' AND type='index'
 [0m
   [1m[36mArtist Load (0.2ms)[0m  [1mSELECT "artists".* FROM "artists"[0m
+
+
+Started GET "/artists" for 69.112.224.82 at 2019-02-02 23:09:08 +0000
+Cannot render console from 69.112.224.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArtistsController#index as HTML
